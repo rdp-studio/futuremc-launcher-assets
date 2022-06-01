@@ -1,2 +1,3 @@
-# futuremc-launcher-assets
-FutureMC Launcher Assets
+# FutureMC Launcher Assets
+
+This repo is used for FutureMC Launcher.
