@@ -1,8 +1,9 @@
-<local:MyHint Margin="0,0,0,15" Text="欢迎游玩FutureMC！别忘了加入我们的微信群！" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="欢迎游玩FutureMC2！" IsWarn="False" />
+<local:MyHint Margin="0,0,0,15" Text="请在加入服务器前打开专用加速器！如果还没有下载专用加速器，请在群内下载。" IsWarn="False" />
 
 <local:MyCard Title="快捷菜单">
     <StackPanel Margin="30,40,30,10" HorizontalAlignment="Center" Orientation="Horizontal">
-      <local:MyButton Width="200" Height="35" Padding="13,0,13,0" Margin="0,0,10,0" Text="启动 FutureMC" EventType="启动游戏" EventData="点击按钮启动游戏" />
+      <local:MyButton Width="200" Height="35" Padding="13,0,13,0" Margin="0,0,10,0" Text="启动 FutureMC2" EventType="启动游戏" EventData="点击按钮启动游戏" />
       <local:MyButton Width="200" Height="35" Padding="13,0,13,0" Margin="0,0,10,0" Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新" />
     </StackPanel>
 </local:MyCard>
@@ -11,10 +12,4 @@
 		<StackPanel Margin="30,40,30,10">
 			<TextBlock Text="📢 暂无广告" Padding="15,0,0,0" Margin="0,0,0,5" />
 		</StackPanel>
-</local:MyCard>
-
-<local:MyCard Margin="0,10,0,15" Title="微信群二维码" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="30,40,30,10">
-      <Image Height="396" HorizontalAlignment="Center" Source="https://rdp-studio.github.io/futuremc-launcher-assets/FutureMC%E7%8E%A9%E5%AE%B6%E7%BE%A4.png" />
-    </StackPanel>
 </local:MyCard>
