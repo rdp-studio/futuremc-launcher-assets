@@ -3,7 +3,6 @@
 
 <local:MyCard Title="快捷菜单">
     <StackPanel Margin="30,40,30,10" HorizontalAlignment="Center" Orientation="Horizontal">
-      <local:MyButton Width="200" Height="35" Padding="13,0,13,0" Margin="0,0,10,0" Text="启动 FutureMC2" EventType="启动游戏" EventData="1.17.1" />
       <local:MyButton Width="200" Height="35" Padding="13,0,13,0" Margin="0,0,10,0" Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新" />
     </StackPanel>
 </local:MyCard>
